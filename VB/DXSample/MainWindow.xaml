@@ -1,4 +1,4 @@
-﻿<Window x:Class="DXSample.MainWindow"
+<Window x:Class="DXSample.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:View="clr-namespace:DXSample.View"  
