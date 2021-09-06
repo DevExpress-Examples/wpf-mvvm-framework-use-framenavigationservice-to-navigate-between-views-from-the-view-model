@@ -1,6 +1,4 @@
-﻿Imports Microsoft.VisualBasic
-Imports System
-Imports DevExpress.Mvvm
+﻿Imports DevExpress.Mvvm
 Imports DevExpress.Mvvm.POCO
 
 Namespace DXSample.ViewModel
