@@ -3,8 +3,17 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E4697)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
+
+# Use FrameNavigationService to Navigate between Views from the ViewModel
+
+This example shows you how to use the FrameNavigationService to navigate between Views within a NavigationFrame.
+
+<img src="/images/NavigationFrame.gif"/>
+
+In this example, the MainWindow contains a NavigationFrame, which shows a HomeView at startup. The HomeView contains a Tile, which invokes a command to navigate to a DetailView when clicked. The DetailView contains the Back button for backward navigation.
+
 <!-- default file list -->
-*Files to look at*:
+## Files to Look At
 
 * [DetailView.xaml](./CS/DXSample/View/DetailView.xaml) (VB: [DetailView.xaml](./VB/DXSample/View/DetailView.xaml))
 * [HomeView.xaml](./CS/DXSample/View/HomeView.xaml) (VB: [HomeView.xaml](./VB/DXSample/View/HomeView.xaml))
@@ -13,11 +22,8 @@
 * [HomeViewModel.cs](./CS/DXSample/ViewModel/HomeViewModel.cs) (VB: [HomeViewModel.vb](./VB/DXSample/ViewModel/HomeViewModel.vb))
 * [MainViewModel.cs](./CS/DXSample/ViewModel/MainViewModel.cs) (VB: [MainViewModel.vb](./VB/DXSample/ViewModel/MainViewModel.vb))
 <!-- default file list end -->
-# How to: Initiate Navigation between Views from the View Model Using FrameNavigationService
 
+## Documentation
 
-<p>The FrameNavigationService provides methods to navigate between Views within a NavigationFrame. This example shows how to use this service.</p><p>In this example, the MainWindow contains a NavigationFrame, which shows a HomeView at startup. The HomeView contains a Tile, which invokes a command to navigate to a DetailView when clicked. The DetailView contains the Back button for backward navigation.</p>
-
-<br/>
-
-
+ * [FrameNavigationService](https://docs.devexpress.com/WPF/113944/mvvm-framework/services/predefined-set/framenavigationservice)
+ * [UI Services](https://docs.devexpress.com/WPF/17414/mvvm-framework/services)
